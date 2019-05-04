@@ -10,6 +10,9 @@ public class Bullet : MonoBehaviour
 
     public Rigidbody2D rb;
 
+    //public GameObject impactEffect;
+
+
     // Update is called once per frame
     void Update()
     {
@@ -36,6 +39,9 @@ public class Bullet : MonoBehaviour
         }
 
         Debug.Log(hitInfo);
+
+        //Instantiate(impactEffect, transform.position, transform.rotation);
+
 
         // Destroy the bullet
         Destroy(gameObject);
