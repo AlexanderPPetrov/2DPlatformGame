@@ -117,6 +117,7 @@
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineTrack.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\Egg.cs" />
+    <Compile Include="Assets\Scripts\HealthBar.cs" />
     <Compile Include="Assets\Scripts\ParallaxBackground.cs" />
     <Compile Include="Assets\Scripts\ParallaxCamera.cs" />
     <Compile Include="Assets\Scripts\ParallaxLayer.cs" />

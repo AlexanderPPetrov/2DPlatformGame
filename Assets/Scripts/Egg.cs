@@ -6,7 +6,7 @@ public class Egg : MonoBehaviour
 {
     public float moveSpeed = 10f;
 
-    public int health = 100;
+    public static float health = 100;
 
     public GameObject destroyEffect;
 
@@ -28,7 +28,7 @@ public class Egg : MonoBehaviour
         }
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
         health = health - damage;
         Debug.Log("TakeDamage: " + damage);
