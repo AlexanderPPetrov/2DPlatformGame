@@ -6,7 +6,7 @@ public class Egg : MonoBehaviour
 {
     public float moveSpeed = 10f;
 
-    public static float health = 100;
+    public float health = 100;
 
     public GameObject destroyEffect;
 
@@ -38,6 +38,10 @@ public class Egg : MonoBehaviour
         }
     }
 
+    public float getHealth()
+    {
+        return health;
+    }
     void DestroyEgg()
     {
         // Remove the egg
